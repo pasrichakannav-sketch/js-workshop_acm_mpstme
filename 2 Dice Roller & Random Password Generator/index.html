@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller and Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dice Roller</h1>
+    <input type="number" id="diceInput" min="1" placeholder="Number of dice">
+    <button id="rollBtn">Roll Dice</button>
+    <p id="diceResult"></p>
+    <div id="diceImages"></div>
+
+    <hr>
+
+    <h1>Random Password Generator</h1>
+    <input type="number" id="passwordLength" min="1" placeholder="Password length">
+    <br><br>
+    <label><input type="checkbox" id="includeLower"> Lowercase</label>
+    <label><input type="checkbox" id="includeUpper"> Uppercase</label>
+    <label><input type="checkbox" id="includeNumbers"> Numbers</label>
+    <label><input type="checkbox" id="includeSymbols"> Symbols</label>
+    <br><br>
+    <button id="generateBtn">Generate Password</button>
+    <p id="passwordResult"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

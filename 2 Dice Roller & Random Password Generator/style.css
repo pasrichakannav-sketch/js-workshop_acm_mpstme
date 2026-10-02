@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 35px;
+}
+
+button,
+input {
+    padding: 7px;
+    margin: 4px;
+}
+
+#diceImages img {
+    width: 55px;
+    margin: 4px;
+}
+
+hr {
+    margin: 30px auto;
+    width: 60%;
+}
